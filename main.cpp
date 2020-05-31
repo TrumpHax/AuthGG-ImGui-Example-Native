@@ -63,11 +63,6 @@ int main(int, char**)
     auto md5 = new md5wrapper();
     authgg::GenerateSeed();
     authgg::Initialize();
-    std::string choice;
-    std::string username;
-    std::string password;
-    std::string email;
-    std::string key;
     ///////////////////////////////////////////////////////////////////////////////////////
 
     GLFWwindow* window = glfwCreateWindow(500, 300, crypto.appname.c_str(), NULL, NULL);
